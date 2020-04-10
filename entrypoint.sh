@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-git-ftp push \
+yes | git-ftp push \
   --syncroot $INPUT_SYNCROOT \
   --user $INPUT_USER \
   --passwd $INPUT_PASSWORD \
